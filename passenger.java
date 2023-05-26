@@ -1,16 +1,14 @@
-Package org.airline.reservations;
-public class passenger {
+import java.util.Scanner;
+
+public class Passenger {
     
-    Private String name;
-    public Passenger(){
-        name = "unknown name"
+    public static void main(String[] args) {
+        System.out.println("Geneva Sign In");
 
-    public String getName(){
-        return Name;
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Please enter your name:");
+        String name = scan.nextLine();
+        System.out.println("Hello" + name);
+        scan.close();
     }
-    public void setName(String newName){
-        name = newName;
-    }
-}
-
 }
